@@ -1,0 +1,4 @@
+<script>
+	alert("Signup Successful! Go back to Login!")
+</script>
+

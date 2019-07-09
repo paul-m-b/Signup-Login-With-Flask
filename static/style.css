@@ -1,0 +1,24 @@
+.input {
+	display: block;
+	color: blue;
+	margin: auto;
+	font-family: "Consolas";
+}
+
+.seperator {
+	color: blue;
+	text-decoration: underline overline;
+}
+
+body {
+	margin:auto;
+	text-align:center;
+	font-family: "Consolas";
+	background-image: url("http://www.technocrazed.com/wp-content/uploads/2015/11/Cool-Black-And-White-Wallpapers-Resolution-1920x1080-Desktop-Backgrounds-16.jpg");
+}
+
+p {
+	color:blue;
+	font-weight: bold;
+}
+

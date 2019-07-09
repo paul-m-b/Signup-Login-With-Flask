@@ -1,0 +1,18 @@
+<head>
+	<title>**ADMIN PORTAL**</title>
+</head>
+
+<body>
+	<h1> Welcome to ADMIN PORTAL </h1>
+
+	<h3> Current list of Usernames/Passwords: {{logs}} </h3>
+
+	<button onclick="logout();">Logout</button>
+
+	<script>
+		function logout() {
+			window.history.back;
+		}
+	</script>
+
+</body>

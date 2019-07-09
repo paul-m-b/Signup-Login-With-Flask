@@ -1,0 +1,25 @@
+<head>
+	<link rel="stylesheet" type="text/css" href={{url_for('static', filename='style.css')}}>
+	<title>Paul's signup/login</title>
+</head>
+<body>
+
+	<h1 class="seperator">Signup to my site here!</h1>
+	<form action="/signup" method="post">
+		<p>Desired Username</p>
+		<input class = "input" type="text" name="email"></input>
+		<p>Desired Password</p>
+		<input class = "input" type="password" name="passw"></input>
+		<input class = "input" type="submit" value="Signup" />
+	</form>
+
+	<h1 class="seperator">If you already signed up, login here!</h1>
+	<form action="/login" method="post">
+		<p> Enter Username </p>
+		<input type="text" class="input" name="logemail"/>
+		<p> Enter Password </p>
+		<input type="password" class="input" name="logpassw"/>
+		<input type="submit" class="input" value="Login" />
+	</form>
+
+</body>
