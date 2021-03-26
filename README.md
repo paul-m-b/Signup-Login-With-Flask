@@ -1,3 +1,13 @@
 # Signup-Login-With-Flask
-Signup/Login program built with Flask. Runs on localhost
-This is a program that is made with Python, HTML, CSS, and Javascript. It's basic features allow users to Signup, Login, Change their Usernames/Passwords, along with logging out. There is also an Admin portal that shows the list of users along with their passwords. This info. would obviosuly be secured if it was being used in the real world.
+A website that allows users to signup, login, change their usernames and passwords, and supplies an admin panel.
+Created for fun to waste time, designed for use on localhost.
+
+## Requirements
+Python 3.6
+Flask -
+
+## Usage
+`python site.py`
+
+### Disclaimers
+This isn't secure, don't treat it as if it were.
