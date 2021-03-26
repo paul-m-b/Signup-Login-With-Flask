@@ -4,7 +4,8 @@ Created for fun to waste time, designed for use on localhost.
 
 ## Requirements
 Python 3.6
-Flask -
+
+Flask - 1.1.2
 
 ## Usage
 `python site.py`
